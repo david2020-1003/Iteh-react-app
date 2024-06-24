@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import Products from './components/Products';
 
 function App() {
+  //const prom = <h3>Cao svima!</h3>
+  
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar></NavBar>
+      
+      <Products/>
+      
     </div>
   );
 }
 
 export default App;
+//OVO NAM JE GLAVNA KOMPONENTA U NJOJ POZIVAMO SVE

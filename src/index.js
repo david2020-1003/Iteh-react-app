@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode> 
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//ReactDOM.render(<h1>Cao svima</h1>,document.getElementById("root"));
+
+//KORISTIMO JSX za pisanje, a ne HTML
+
+// const prom = <h1>Cao svima!</h1>;
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <div>
+//     {prom}
+//   </div>>
+//    // ovo je fragment i on je prazan
+//   //ovo je jss kod a ne html
+  
+//   // ne mozemo da imamo vise od jednog elemtna koji prosledjujemo
+//   // jedan nacin je da sve stavimo u jedan div
+// );
+
+
+
